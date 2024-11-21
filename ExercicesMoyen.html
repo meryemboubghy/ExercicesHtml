@@ -6,24 +6,35 @@
     <title>Tableau Simple</title>
   </head>
   <body>
-    <!-- Exercice Tableau Simple -->
-    <table>
+    <!-- 1==>Exercice Tableau Simple -->
+    <table
+      border="1"
+      style="border-collapse: collapse; text-align: center; width: 50%"
+    >
       <tr>
         <th>Nom</th>
         <th>Age</th>
       </tr>
-      <tr>
-        <td>Meryem,</td>
+      <tr colspan="2">
+        <td>Meryem</td>
         <td>25 ans</td>
       </tr>
       <tr>
-        <td>Sanae,</td>
+        <td>Sanae</td>
         <td>22 ans</td>
       </tr>
       <tr>
-        <!-- Fusion de colonnes :avec colspan -->
-        <td colspan="2">Benoît, 30 ans</td>
+        <!-- 2==>Fusion de colonnes :avec colspan -->
+        <td colspan="2">Aziza 23 ans</td>
       </tr>
     </table>
+    <!-- Exercice 3:Formulaire Simple -->
+    <h2>Formulaire</h2>
+    <form action="submit" method="post">
+      <label>Nom :</label>
+      <input type="text" id="nom" placeholder="Entrez votre nom" required />
+      <br /><br />
+      <button type="submit">Soumettre</button>
+    </form>
   </body>
 </html>
