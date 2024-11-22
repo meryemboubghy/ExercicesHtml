@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire d'inscription</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulaire d'inscription</h1>
+    </header>
+    <!-- Une section <main> contenant le formulaire avec un sous-titre. -->
+    <main>
+      <h2>Inscrivez-vous</h2>
+      <br action="submit" method="post">
+        <label for="name">Nom Complet :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Entrez votre nom"
+          required
+        />
+        <br></br>
+        <label for="email">Email :</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Entrez Votre Email"
+          required
+        />
+        <br></br>
+
+        <label for="password">Mot de passe :</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Entrez Votre mot de passe"
+          required
+        />
+        <br></br>
+        <button>Envoyer</button>
+      </form>
+    </main>
+  </body>
+</html>
